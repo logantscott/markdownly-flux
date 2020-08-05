@@ -20,3 +20,5 @@ demo, but to prevent any mishaps we are going to freeze new feature development 
   * create Checklists (Part of the Trello cards)
   * ask for clarification
 * Add new cards as needed (e.g. Bugs) and label them
+
+[Trello Board](https://trello.com/b/E5oFlkPm/nikki-max-logan)

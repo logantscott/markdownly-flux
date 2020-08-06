@@ -1,10 +1,8 @@
 export const UPDATE_MARKDOWN = 'UPDATE_MARKDOWN';
 export const updateMarkdown = (id, title, body) => {
-  const newMarkdown = {
+  return {
     type: UPDATE_MARKDOWN,
-    payload: {}
+    payload: { [id]: { title, body } }
   };
-  newMarkdown.payload[id] = { title, body };
-  return newMarkdown;
 };
 

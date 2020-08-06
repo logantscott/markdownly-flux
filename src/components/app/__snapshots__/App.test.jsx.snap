@@ -2,9 +2,21 @@
 
 exports[`App component renders App 1`] = `
 <Fragment>
-  <h1>
-    Markdown Editor
-  </h1>
-  <Document />
+  <BrowserRouter>
+    <Header />
+    <hr />
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/files"
+      />
+    </Switch>
+  </BrowserRouter>
 </Fragment>
 `;

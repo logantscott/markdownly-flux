@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders Header 1`] = `
+<header
+  className="Header"
+>
+  <h1>
+    Markdownly
+  </h1>
+  <nav>
+    <Link
+      to="/"
+    >
+      Home
+    </Link>
+    <Link
+      to="/files"
+    >
+      Markdown Files
+    </Link>
+    <Link
+      to="/about"
+    >
+      About
+    </Link>
+  </nav>
+</header>
+`;

@@ -5,8 +5,8 @@ import 'normalize.css';
 import AppProvider from './providers/appProvider';
 
 render(
-    <AppProvider>
-        <App />
-    </AppProvider>,
+  <AppProvider>
+    <App />
+  </AppProvider>,
   document.getElementById('root')
 );

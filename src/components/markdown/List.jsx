@@ -1,10 +1,11 @@
 import React from 'react';
+import { useSelector } from '../../hooks/markdownContext';
+import { getFiles } from '../../selectors/markdownSelectors';
 
 
-// eslint-disable-next-line react/prop-types
-const List = ({ files }) => {
+const List = () => {
+  const files = useSelector(getFiles);
 
-  // eslint-disable-next-line react/prop-types
   const fileElements = files.map(({ title, body, id }) => (
     <li key={id}>
       <h2>{title}</h2>
@@ -17,7 +18,6 @@ const List = ({ files }) => {
     </ul>
   );
 };
-
 
 
 export default List;

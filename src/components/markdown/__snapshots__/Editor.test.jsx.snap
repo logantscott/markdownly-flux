@@ -6,6 +6,23 @@ exports[`Editor component renders Editor 1`] = `
     Object {
       "dispatch": [Function],
       "state": Object {
+        "files": Array [
+          Object {
+            "body": "this is a markdown file",
+            "id": "ID2938248",
+            "title": "test",
+          },
+          Object {
+            "body": "another markdown",
+            "id": "ID392045",
+            "title": "another-test",
+          },
+          Object {
+            "body": "last test file",
+            "id": "ID24558248",
+            "title": "one-more",
+          },
+        ],
         "markdown": "# Hi there",
       },
     }

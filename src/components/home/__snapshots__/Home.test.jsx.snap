@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders Home 1`] = `
+<main
+  className="Home"
+>
+  <h1>
+    Home!
+  </h1>
+  <p>
+    A markdown editor that allows our customers to edit markdown files and see a preview.
+  </p>
+  <img
+    src="..\\\\..\\\\public\\\\images\\\\example.jpg"
+  />
+</main>
+`;

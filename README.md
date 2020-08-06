@@ -1,9 +1,11 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/logantscott/markdownly-flux)
+
 # Markdownly
 
 We currently have a markdown editor that allows our customers to edit markdown
 files and see a preview. The editor is becoming more popular and we have several
 feature requests asking us to allow users to edit multiple markdown files at once.
-Think the sheets 3in Google sheets or excel.
+Think the sheets in Google sheets or excel.
 
 **For clarification see the Customer Success Team.**
 

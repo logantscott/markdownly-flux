@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Document component renders Document 1`] = `
+<Fragment>
+  <div
+    className="Document"
+  >
+    <Editor />
+    <Preview />
+  </div>
+</Fragment>
+`;

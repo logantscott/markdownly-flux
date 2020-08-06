@@ -5,9 +5,8 @@ const Home = () => {
 
   return (
     <main className={styles.Home}>
-      <h1>Home!</h1>
-      <p>A markdown editor that allows our customers to edit markdown
-      files and see a preview.</p>
+      <h2>A markdown editor that allows our customers to edit markdown
+      files and see a preview.</h2>
       <img src='..\..\public\images\example.jpg' />
     </main>
   );

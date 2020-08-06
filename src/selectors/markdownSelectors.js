@@ -1,7 +1,9 @@
 import marked from 'marked';
 
-export const getMarkdown = state => state.markdown;
-
-export const getMarkdownPreview = state => marked(state.markdown);
-
 export const getFiles = state => state.files;
+
+export const getCurrentFileID = state => state.currentFileID;
+
+export const getCurrentMarkdown = state => state.files[getCurrentFileID(state)];
+
+export const getCurrentFilePreview = state => marked(getCurrentMarkdown(state).body);

@@ -6,7 +6,21 @@ exports[`Preview component renders Preview 1`] = `
     Object {
       "dispatch": [Function],
       "state": Object {
-        "markdown": "# Hi there",
+        "currentFileID": "ID2938248",
+        "files": Object {
+          "ID24558248": Object {
+            "body": "last test file",
+            "title": "one-more",
+          },
+          "ID2938248": Object {
+            "body": "this is a markdown file",
+            "title": "test",
+          },
+          "ID392045": Object {
+            "body": "another markdown file",
+            "title": "another-test",
+          },
+        },
       },
     }
   }

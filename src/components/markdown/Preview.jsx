@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from 'github-markdown-css/github-markdown.css';
-import { getMarkdownPreview } from '../../selectors/markdownSelectors';
+import { getCurrentFilePreview } from '../../selectors/markdownSelectors';
 import { useSelector } from '../../hooks/markdownContext';
 
+
 const Preview = () => {
-  const __html = useSelector(getMarkdownPreview);
+  const __html = useSelector(getCurrentFilePreview);
 
   return (
     <div className={styles['markdown-body']} dangerouslySetInnerHTML={{ __html }}></div>

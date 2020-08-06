@@ -1,36 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`test the list component renders the list 1`] = `
-<ul>
-  <li
-    key="ID2938248"
-  >
-    <h2>
-      test
-    </h2>
-    <pre>
-      this is a markdown file
-    </pre>
-  </li>
-  <li
-    key="ID392045"
-  >
-    <h2>
-      another-test
-    </h2>
-    <pre>
-      another markdown
-    </pre>
-  </li>
-  <li
-    key="ID24558248"
-  >
-    <h2>
-      one-more
-    </h2>
-    <pre>
-      last test file
-    </pre>
-  </li>
-</ul>
+<ContextProvider
+  value={
+    Object {
+      "dispatch": [Function],
+      "state": Object {
+        "currentFileID": "ID2938248",
+        "files": Object {
+          "ID24558248": Object {
+            "body": "last test file",
+            "title": "one-more",
+          },
+          "ID2938248": Object {
+            "body": "this is a markdown file",
+            "title": "test",
+          },
+          "ID392045": Object {
+            "body": "another markdown file",
+            "title": "another-test",
+          },
+        },
+      },
+    }
+  }
+>
+  <List />
+</ContextProvider>
 `;

@@ -9,10 +9,6 @@ const Editor = () => {
   const markdown = useSelector(getMarkdown);
 
   const handleMarkdown = ({ target }) => {
-    // dispatch({
-    //   type: 'UPDATE_MARKDOWN',
-    //   payload: target.value
-    // })
     dispatch(updateMarkdown(target.value));
   };
 

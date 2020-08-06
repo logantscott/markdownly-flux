@@ -1,5 +1,5 @@
 import React from 'react';
-import Document from '../../components/document/Document';
+import Document from '../document/Document';
 
 export default function App() {
   return (

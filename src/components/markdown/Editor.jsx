@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Editor.css';
 import { useSelector, useDispatch } from '../../hooks/markdownContext';
-import { updateMarkdown, saveMarkdown } from '../../actions/markdownActions';
+import { updateMarkdown } from '../../actions/markdownActions';
 import { getCurrentMarkdown, getCurrentFileID } from '../../selectors/markdownSelectors';
 
 const Editor = () => {
@@ -14,8 +14,8 @@ const Editor = () => {
   };
 
   return (
-      <section>
-    <textarea className={styles.Editor} value={markdown.body} onChange={handleMarkdown} />
+    <section>
+      <textarea className={styles.Editor} value={markdown.body} onChange={handleMarkdown} />
     </section>
   );
 };

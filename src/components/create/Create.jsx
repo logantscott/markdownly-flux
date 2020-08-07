@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import List from '../markdown/List';
 import { useDispatch } from '../../hooks/markdownContext';
@@ -12,26 +13,26 @@ const Create = ({ history }) => {
   const onSubmit = (event) => {
     event.preventDefault();
     const id = shortid.generate();
-    dispatch(saveMarkdown(id, title, ''))
-    dispatch(updateCurrentFileID(id))
-    history.push('/editor')
-  }
+    dispatch(saveMarkdown(id, title, ''));
+    dispatch(updateCurrentFileID(id));
+    history.push('/editor');
+  };
 
-    return (
-        <>
-        <form onSubmit={onSubmit}>
-          <fieldset>
-            <legend>Create New Markdown</legend>
+  return (
+    <>
+      <form onSubmit={onSubmit}>
+        <fieldset>
+          <legend>Create New Markdown</legend>
           <label>
             Title:
-            <input type='text' name='title' value={title} onChange={({target}) => setTitle(target.value)} required/>
+            <input type='text' name='title' value={title} onChange={({ target }) => setTitle(target.value)} required/>
           </label>
-        <button type='submit'>Create</button>
+          <button type='submit'>Create</button>
         </fieldset>
-        </form>
-        <List />
-        </>
-    );
+      </form>
+      <List />
+    </>
+  );
 };
 
 export default Create;

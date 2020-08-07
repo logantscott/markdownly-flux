@@ -8,7 +8,6 @@ import {
   Route
 } from 'react-router-dom';
 import Create from '../create/Create';
-import List from '../markdown/List';
 
 export default function App() {
   return (

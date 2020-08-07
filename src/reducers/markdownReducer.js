@@ -16,10 +16,10 @@ export default function reducer(state, action) {
     case UPDATE_MARKDOWN:
       return  { ...state, files: { ...state.files, [state.currentFileID]: action.payload } };
     case SAVE_MARKDOWN:
-        return { ...state, files: { ...state.files, ...action.payload }
+      return { ...state, files: { ...state.files, ...action.payload }
       };
     case UPDATE_CURRENTFILEID:
-      return { ...state, currentFileID: action.payload}
+      return { ...state, currentFileID: action.payload };
     default:
       return state;
   }

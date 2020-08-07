@@ -6,14 +6,13 @@ import { updateCurrentFileID } from '../../actions/markdownActions';
 
 
 const List = () => {
-const dispatch = useDispatch();
-const history = useHistory();
+  const dispatch = useDispatch();
+  const history = useHistory();
 
   const handleEdit = ({ target }) => {
-    dispatch(updateCurrentFileID(target.value))
-    console.log(target.value)
-    history.push('/editor')
-  }
+    dispatch(updateCurrentFileID(target.value));
+    history.push('/editor');
+  };
 
   const files = Object.values(useSelector(getFiles));
 

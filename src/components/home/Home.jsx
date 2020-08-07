@@ -7,7 +7,7 @@ const Home = () => {
     <main className={styles.Home}>
       <h2>A markdown editor that allows our customers to edit markdown
       files and see a preview.</h2>
-      <img src='..\..\public\images\example.jpg' />
+      <img src='example.jpg' />
     </main>
   );
 };

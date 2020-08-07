@@ -1,13 +1,25 @@
 import React from 'react';
-import { useSelector } from '../../hooks/markdownContext';
+import { useHistory } from 'react-router-dom';
+import { useSelector, useDispatch } from '../../hooks/markdownContext';
 import { getFiles } from '../../selectors/markdownSelectors';
+import { updateCurrentFileID } from '../../actions/markdownActions';
 
 
 const List = () => {
-  const files = useSelector(getFiles);
+const dispatch = useDispatch();
+const history = useHistory();
+
+  const handleEdit = ({ target }) => {
+    dispatch(updateCurrentFileID(target.value))
+    console.log(target.value)
+    history.push('/editor')
+  }
+
+  const files = Object.values(useSelector(getFiles));
 
   const fileElements = files.map(({ title, body, id }) => (
     <li key={id}>
+      <button onClick={handleEdit} value={id}>Edit {title}</button>
       <h2>{title}</h2>
       <pre>{body.substring(0, 150)}</pre>
     </li>
@@ -18,6 +30,5 @@ const List = () => {
     </ul>
   );
 };
-
 
 export default List;

@@ -16,6 +16,11 @@ exports[`App component renders App 1`] = `
         exact={true}
         path="/files"
       />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/editor"
+      />
     </Switch>
   </BrowserRouter>
 </Fragment>

@@ -4,68 +4,6 @@ exports[`About component renders About 1`] = `
 <main
   className="About"
 >
-  <figure>
-    <img
-      alt="nikki"
-      src="..\\\\..\\\\public\\\\images\\\\nikki.jfif"
-    />
-    <figcaption>
-      <p
-        className="name"
-      >
-        Nikki Kiga
-      </p>
-      <p>
-        Software Developer
-      </p>
-      <a
-        href="https://github.com/nikki-kiga"
-      >
-        Github
-      </a>
-    </figcaption>
-  </figure>
-  <figure>
-    <img
-      alt="max"
-      src="..\\\\..\\\\public\\\\images\\\\max.jfif"
-    />
-    <figcaption>
-      <p
-        className="name"
-      >
-        Max Lamb
-      </p>
-      <p>
-        Software Developer
-      </p>
-      <a
-        href="https://github.com/MaximusLamb"
-      >
-        Github
-      </a>
-    </figcaption>
-  </figure>
-  <figure>
-    <img
-      alt="logan"
-      src="..\\\\..\\\\public\\\\images\\\\logan.jfif"
-    />
-    <figcaption>
-      <p
-        className="name"
-      >
-        Logan Scott
-      </p>
-      <p>
-        Full-Stack Developer
-      </p>
-      <a
-        href="https://github.com/logantscott"
-      >
-        Github
-      </a>
-    </figcaption>
-  </figure>
+  <Developers />
 </main>
 `;

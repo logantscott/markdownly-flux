@@ -14,7 +14,9 @@ const Editor = () => {
   };
 
   return (
-    <textarea className={styles.Editor} value={markdown.body} onChange={handleMarkdown} />
+    <section>
+      <textarea className={styles.Editor} value={markdown.body} onChange={handleMarkdown} />
+    </section>
   );
 };
 

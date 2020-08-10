@@ -7,6 +7,7 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
+import Create from '../create/Create';
 
 export default function App() {
   return (
@@ -16,7 +17,8 @@ export default function App() {
         <hr />
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Route exact path='/files' component={Document}/>
+          <Route exact path='/files' component={Create}/>
+          <Route exact path='/editor' component={Document}/>
         </Switch>
       </Router>
     </>

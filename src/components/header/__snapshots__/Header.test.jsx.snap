@@ -19,6 +19,11 @@ exports[`Header component renders Header 1`] = `
       Markdown Files
     </Link>
     <Link
+      to="/editor"
+    >
+      Editor
+    </Link>
+    <Link
       to="/about"
     >
       About

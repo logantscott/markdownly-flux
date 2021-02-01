@@ -1,0 +1,21 @@
+.name {
+  font-weight: bold;
+}
+.Developers {
+  display: flex;
+  img {
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid #333;
+  }
+  figure {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background: #999;
+  }
+  figcaption {
+    text-align: center;
+  }
+}

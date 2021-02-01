@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Developers component renders Developers 1`] = `
+<section
+  className="Developers"
+>
+  <figure
+    key="Nikki Kiga"
+  >
+    <img
+      alt="Nikki Kiga"
+      src="..\\\\..\\\\public\\\\images\\\\nikki.jfif"
+    />
+    <figcaption>
+      <p
+        className="name"
+      >
+        Nikki Kiga
+      </p>
+      <p>
+        Software Developer
+      </p>
+      <a
+        href="https://github.com/nikki-kiga"
+      >
+        Github
+      </a>
+    </figcaption>
+  </figure>
+  <figure
+    key="Max Lamb"
+  >
+    <img
+      alt="Max Lamb"
+      src="..\\\\..\\\\public\\\\images\\\\max.jfif"
+    />
+    <figcaption>
+      <p
+        className="name"
+      >
+        Max Lamb
+      </p>
+      <p>
+        Software Developer
+      </p>
+      <a
+        href="https://github.com/MaximusLamb"
+      >
+        Github
+      </a>
+    </figcaption>
+  </figure>
+  <figure
+    key="Logan Scott"
+  >
+    <img
+      alt="Logan Scott"
+      src="..\\\\..\\\\public\\\\images\\\\logan.jfif"
+    />
+    <figcaption>
+      <p
+        className="name"
+      >
+        Logan Scott
+      </p>
+      <p>
+        Full-Stack Developer
+      </p>
+      <a
+        href="https://github.com/logantscott"
+      >
+        Github
+      </a>
+    </figcaption>
+  </figure>
+</section>
+`;
